@@ -16,8 +16,8 @@ class Header extends Component{
                 if (navItem.name === "header"){
                     return(
                         <ul className="nav-links" key={navItem.id}>
-                            <li className="home-link"><Link to="https://ceciceciceci.github.io/">home</Link></li>
-                            <li><Link className="logo" to="https://ceciceciceci.github.io/">
+                            <li className="home-link"><Link to="http://Ceciceciceci.github.io/my-app">home</Link></li>
+                            <li><Link className="logo" to="http://Ceciceciceci.github.io/my-app">
                                     <svg width="169" height="141" viewBox="0 0 169 141" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="169" height="141">
                                         <ellipse cx="84.5" cy="70.5" rx="84.5" ry="70.5" fill="#C46D24"/>
